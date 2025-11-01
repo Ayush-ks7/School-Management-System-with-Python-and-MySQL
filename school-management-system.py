@@ -50,7 +50,7 @@ else:     # Creating Database with Tables if Database not exists
 
 def signin():
     print("      ------------------------------------------------------------------------------")
-    print("                WELCOME TO NEW ERA PROGRESSIVE SCHOOL          ")
+    print("                         WELCOME TO NEW ERA PROGRESSIVE SCHOOL          ")
     print("      ------------------------------------------------------------------------------")
     p=input("System Password : ")
     if p=="12345":
@@ -63,13 +63,13 @@ def signin():
 def options():     # Display all Options
     print("""
                     -----------------------------------------------------------------------
-                                     NEW ERA PROGRESSIVE SCHOOL
+                                          NEW ERA PROGRESSIVE SCHOOL
                     -----------------------------------------------------------------------
 
-                    1. Add Student                               5. Display Students
-                    2. Pay Fees                                    6. Display Fees
-                    3. Add Bill                                      7. Display Bills
-                    4. Add Teacher                               8. Display Teachers
+                     1. Add Student                                   5. Display Students
+                     2. Pay Fees                                      6. Display Fees
+                     3. Add Bill                                      7. Display Bills
+                     4. Add Teacher                                   8. Display Teachers
 
                     -----------------------------------------------------------------------
 
@@ -199,3 +199,4 @@ def dTeacher():     # Code to Display all the Teachers
     options()
 
 signin()     # Calling the signin function
+
